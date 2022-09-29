@@ -2,11 +2,14 @@
 class Position
 {
 private:
-   char location;
    double squareWidth;
    double squareHeight;
 
+
 public:
+   int location;
+
+   Position();
    int getLocation();
    int getRow();
    int getColumn();

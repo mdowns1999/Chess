@@ -1,23 +1,28 @@
 #pragma once
 #include "position.h"
-#include "board.h"
-#include "uiDraw.h"
+
 
 class Piece
 {
 protected:
    Position position;
-   bool fWhite;
+   
    int nMove;
    int lastMove;
 
 
+
 public:
+
+   bool fWhite;
+   // For the Unit Tests
+   friend testPiece;
+
    // Constructor
    Piece(int r, int c, bool white);
 
-   void assign(Position);
-   void assign(Piece);
+   void assign(Position position);
+   void assign(Piece piece);
    bool isWhite();
    bool isMove();
    int getNMoves();
@@ -25,8 +30,8 @@ public:
    bool justMoved();
 
    //Virtual Functions for Inheritance
-   virtual char getLetter() {}
-   virtual void display(ogstream gout) {};
-   virtual void getMoves(Board board) {};
+   virtual char getLetter() {};
+   virtual void display() {};
+   //virtual void getMoves(Board board) {};
 };
 

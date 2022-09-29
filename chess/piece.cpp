@@ -27,7 +27,8 @@ int Piece::getNMoves()
 {
    return 0;
 };
-Position Piece::getPosition()
+
+void Piece::getPosition()
 {
 
 };

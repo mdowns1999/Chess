@@ -24,13 +24,7 @@
     <ClInclude Include="testpawn.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="testKing.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="uiDraw.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="uiInteract.h">
+    <ClInclude Include="testPiece.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="piece.h">
@@ -53,12 +47,6 @@
     <ClCompile Include="test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="uiDraw.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="uiInteract.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="piece.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -66,6 +54,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="move.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
