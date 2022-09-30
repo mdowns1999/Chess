@@ -150,6 +150,7 @@ private:
 
        // verify
        assert(moves.find(21) != moves.end());
+       assert(moves.size() == 1);
 
     }  // teardown
 
@@ -177,6 +178,7 @@ private:
 
        // verify
        assert(moves.find(21) != moves.end());
+       assert(moves.size() == 1);
 
     }  // teardown
 

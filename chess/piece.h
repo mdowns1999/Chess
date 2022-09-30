@@ -30,8 +30,8 @@ public:
    bool justMoved();
 
    //Virtual Functions for Inheritance
-   virtual char getLetter() {};
-   virtual void display() {};
+   virtual char getLetter() {}
+   virtual void display() {}
    //virtual void getMoves(Board board) {};
 };
 
